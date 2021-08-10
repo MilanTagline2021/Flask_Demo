@@ -1,5 +1,4 @@
 from flask import *
-import flask
 from flask_app.auth import login_required
 from flask_app.db import get_db
 from werkzeug.exceptions import abort
